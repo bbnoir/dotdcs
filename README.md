@@ -5,20 +5,20 @@ This repository contains my dot files for the NYCU DCS class. Feel free to conta
 To install, follow these steps:
 1. Clone the repository:
 ```
-git clone https://github.com/bbnoirz/dotdcs.git
+$ git clone https://github.com/bbnoirz/dotdcs.git
 ```
 (Note: this may not work on the DCS class workstation, so you may need to clone it locally and then move it to the workstation.)
 
 2. Create soft links to all dot files in your home directory:
 ```
-ln -s ~/dotdcs/.vim ~
-ln -s ~/dotdcs/.vimrc ~
-ln -s ~/dotdcs/.cshrc ~
+$ ln -s ~/dotdcs/.vim ~
+$ ln -s ~/dotdcs/.vimrc ~
+$ ln -s ~/dotdcs/.cshrc ~
 ```
 
 3. Reconnect to the workstation or source the csh configure file:
 ```
-source .cshrc
+$ source .cshrc
 ```
 (The vim configuration will work every time you open vim.)
 
