@@ -15,12 +15,13 @@ $ ln -s ~/dotdcs/.vim ~
 $ ln -s ~/dotdcs/.vimrc ~
 $ ln -s ~/dotdcs/.cshrc ~
 ```
+(Note: If you already have existing *rc files, you can directly add my content to them.)
 
 3. Reconnect to the workstation or source the csh configure file:
 ```
 $ source .cshrc
 ```
-(The vim configuration will work every time you open vim.)
+(Note: you don't need to set up again unless you make changes.)
 
 
 ## Features
