@@ -1,4 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =2
+let g:netrw_dirhist_cnt =4
 let g:netrw_dirhist_1='/RAID2/COURSE/dcs/dcs064/Lab01/01_RTL'
 let g:netrw_dirhist_2='/RAID2/COURSE/dcs/dcs064/.gconf'
+let g:netrw_dirhist_3='/RAID2/COURSE/dcs/dcs064/HW02/01_RTL'
+let g:netrw_dirhist_4='/RAID2/COURSE/dcs/dcs064/HW02'
