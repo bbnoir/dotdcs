@@ -59,5 +59,3 @@ set backspace=indent,eol,start
 autocmd BufWritePre * :%s/\s\+$//e
 
 runtime macros/matchit.vim
-
-colorscheme catppuccin_mocha
