@@ -61,4 +61,4 @@ autocmd BufWritePre * :%s/\s\+$//e
 
 runtime macros/matchit.vim
 
-colorscheme catppuccin_macchiato
+" colorscheme catppuccin_macchiato
