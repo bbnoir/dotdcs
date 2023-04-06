@@ -2,6 +2,7 @@ call plug#begin()
 
 Plug 'vhda/verilog_systemverilog.vim'
 Plug 'jiangmiao/auto-pairs'
+Plug 'catppuccin/vim', { 'as': 'catppuccin' }
 
 " Initialize plugin system
 " - Automatically executes `filetype plugin indent on` and `syntax enable`.
@@ -59,3 +60,5 @@ set backspace=indent,eol,start
 autocmd BufWritePre * :%s/\s\+$//e
 
 runtime macros/matchit.vim
+
+colorscheme catppuccin_macchiato
